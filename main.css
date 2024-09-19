@@ -1,0 +1,87 @@
+.cards {
+    display: flex;
+    
+}
+
+.card {
+    width: 50px;
+    height:40px;
+
+}
+
+.card:nth-child(n+1){
+    margin-left: 2px;
+}
+
+.button {
+    margin-left: 5px;
+
+    background-color: green;
+
+    
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+
+}
+
+.input {
+    border-radius: 4px;
+    font-size: 14px;
+    
+}
+
+.input:focus{
+    outline: none;
+    border-color:#66afe9; 
+}
+
+.card0, .AmericanExpress {
+    background-image: url(45a816a072a3cc1e8f4c.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card1, .Visa {
+    background-image: url(8ae0f239205615f76b6a.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.card2, .Mastercard {
+    background-image: url(d49274a34696bf49de06.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card3, .DinersClub {
+    background-image: url(5e7e9206fd373fdf0794.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card4, .JCB {
+    background-image: url(e36716641580a39aee2b.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card5, .Discover {
+    background-image: url(6f5d6f646733ecef6344.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card6, .Mir {
+    background-image: url(d13ba5d499f94a7da1ce.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.card_disabled {
+    opacity: .3;
+}
+
+
